@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c; 
+}
+
+header{
+    padding: 40px 60px 20px;
+}
+
+header h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+    font-size: 18px;
+}
+
+nav a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2c2c2c;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e8590c;
+}
+
+main {
+    padding: 0 60px 40px;
+}
+ 
+section {
+    margin-bottom: 40px;
+}
+ 
+section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+ 
+.inf img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+ 
+.inf p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+ 
+.advantages ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+ 
+.advantages li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.top-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.top-table th,
+.top-table td {
+    padding: 16px;
+    border: 1px solid #2c2c2c;
+    text-align: center;
+}
+
+.top-table td:nth-child(2) {
+    text-align: left;
+}
+
+footer {
+    background-color: #0b0b0b;
+    color: white;
+    padding: 30px 60px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer a.phone {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+footer a.phone:hover {
+    color: #e8590c;
+}
