@@ -1,18 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-size: 16px;
     font-weight: 400;
     color: #2c2c2c; 
 }
 
 header{
-    padding: 40px 60px 20px;
+    padding: 10px 60px;
 }
 
 header h1{
@@ -30,19 +24,13 @@ nav{
 }
 
 nav a{
-    font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    font-weight: 400;
     color: #2c2c2c;
     text-decoration: none;
 }
 
-nav a:hover {
-    color: #e8590c;
-}
-
 main {
-    padding: 0 60px 40px;
+    padding: 0 60px ;
 }
  
 section {
@@ -65,7 +53,6 @@ section h2 {
 }
  
 .inf p {
-    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -77,7 +64,7 @@ section h2 {
  
 .advantages li {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .top-table {
@@ -86,35 +73,20 @@ section h2 {
     margin-top: 10px;
 }
 
-.top-table th,
-.top-table td {
+.top-table th,.top-table td {
     padding: 16px;
     border: 1px solid #2c2c2c;
     text-align: center;
-}
-
-.top-table td:nth-child(2) {
-    text-align: left;
 }
 
 footer {
     background-color: #0b0b0b;
     color: white;
     padding: 30px 60px;
-}
-
-footer p {
     font-size: 18px;
 }
 
 footer a.phone {
-    font-family: 'Oswald', sans-serif;
-    font-size: 19px;
-    font-weight: 400;
     color: white;
     text-decoration: none;
-}
-
-footer a.phone:hover {
-    color: #e8590c;
 }
