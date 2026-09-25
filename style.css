@@ -36,10 +36,6 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover{
-    color: #d1630f;
-}
-
 nav a.active{
     color: #d1630f;
 }
