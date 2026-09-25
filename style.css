@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Oswald';
     font-size: 16px;
@@ -18,9 +24,10 @@ header h1{
 
 nav{
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 15px;
     padding: 16px 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav a{
@@ -29,8 +36,16 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #d1630f;
+}
+
+nav a.active{
+    color: #d1630f;
+}
+
 main {
-    padding: 0 60px ;
+    padding: 0 60px;
 }
  
 section {
@@ -84,9 +99,49 @@ footer {
     color: white;
     padding: 30px 60px;
     font-size: 18px;
+    flex-shrink: 0;
 }
 
 footer a.phone {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .inf img {
+        width: 500px;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a{
+        font-size: 24px;
+    }
+
+    .inf img {
+        width: 100%;
+    }
+
+    .top-table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .top-table {
+        font-size: 10px;
+    }
 }

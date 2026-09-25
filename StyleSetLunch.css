@@ -1,0 +1,74 @@
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 35px;
+    cursor: pointer;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    background-color: white;
+    border: 2px solid transparent;
+}
+
+.dish:hover {
+    border: 2px solid tomato;
+}
+
+.dish:hover button {
+    background-color: rgb(222, 222, 222);
+}
+
+.dish img {
+    width: 100%;
+    border-radius: 35px;
+}
+
+.dish .price {
+    font-size: 22px;
+    margin-top: 14px;
+}
+
+.dish .name{
+    font-size: 20px;
+}
+
+.dish .weight {
+    color: grey;
+    margin-top: 8px;
+}
+
+.dish button {
+    background-color: #f1eee9;
+    margin-top: 6px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+    .dishes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px) {
+    header h1 {
+        text-align: center;
+    }
+
+    section h2 {
+        text-align: center;
+    }
+
+    .dishes-grid {
+        grid-template-columns: 1fr;
+    }
+}
